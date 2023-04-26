@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a4691bb-b502-401a-81d0-d31a7aef341c" name="변경" comment="First commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9a4691bb-b502-401a-81d0-d31a7aef341c" name="변경" comment="README.md 수정">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682494571621</updated>
       <workItem from="1682494573711" duration="2053000" />
-      <workItem from="1682521542814" duration="8198000" />
+      <workItem from="1682521542814" duration="8316000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1682529869934</created>
@@ -94,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682529869934</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="README.md 수정">
+      <created>1682530031881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682530031881</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="README.md 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md 수정" />
   </component>
 </project>
