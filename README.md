@@ -1,8 +1,9 @@
 # 한글 자음 모음 분리 자바 라이브러리
+
 > 현재 기본적인 자모 분리 기능만 존재합니다. 추후 지속적인 업데이트를 통해 다시 합치는 기능 등 여러가지 기능을 추가할 예정입니다.
 
 [e-](https://github.com/e-)님의 [Hangul.js](https://github.com/e-/Hangul.js/)와 같은 기능을 하는 라이브러리를 Java로 만들어보고자 시작했으며 비슷한 기능들을 추가 혹은 [Hangul.js](https://github.com/e-/Hangul.js/)에 있는 코드를 가져올 예정입니다.
----
+
 ## 예제
 ```java
 import me.laum.hangul.Hangul;
