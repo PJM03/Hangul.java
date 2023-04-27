@@ -50,7 +50,14 @@ public class Hangul {
         return result;
     }
 
+    public static char[] assemble(char... chars) {
+//        AC00(16) + (초성 * 28 * 21) + (중성 * 28) + 종성
 
+//        int ch = c - 0xAC00;
+//        char cho = CHO[ch / 28 / 21];
+//        char jung = JUNG[ch / 28 % 21];
+//        char jong = JONG[ch % 28];
+    }
 
     public static char[] disassembleChar(char c, boolean jungDisassemble, boolean jongDisassemble) {
         int checkResult = hangulCheck(c);
