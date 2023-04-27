@@ -35,7 +35,7 @@ public class Hangul {
     public static char[] disassemble(String string) {
         char[] result = new char[0];
         for (char c : string.toCharArray()) {
-            char[] charArray = charToCharArray(c, false, false);
+            char[] charArray = disassembleChar(c, false, false);
             result = HJUtil.mergeCharArray(result, charArray);
         }
         return result;
@@ -44,13 +44,15 @@ public class Hangul {
     public static char[] disassemble(String string, boolean jungDisassemble, boolean jongDisassemble) {
         char[] result = new char[0];
         for (char c : string.toCharArray()) {
-            char[] charArray = charToCharArray(c, jungDisassemble, jongDisassemble);
+            char[] charArray = disassembleChar(c, jungDisassemble, jongDisassemble);
             result = HJUtil.mergeCharArray(result, charArray);
         }
         return result;
     }
 
-    public static char[] charToCharArray(char c, boolean jungDisassemble, boolean jongDisassemble) {
+
+
+    public static char[] disassembleChar(char c, boolean jungDisassemble, boolean jongDisassemble) {
         int checkResult = hangulCheck(c);
         if (checkResult != -1) {
             if (JUNG_MAP.containsKey(c)) {
